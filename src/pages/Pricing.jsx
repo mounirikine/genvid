@@ -27,7 +27,7 @@ const Pricing = () => {
       </section>
       <section className='py-32 min-h-screen'>
         <div className="sm:flex sm:flex-col sm:items-center p-10">
-          <div className="relative self-center bg-indigo-100 rounded-3xl p-1 flex">
+          <div className="relative self-center bg-indigo-100 rounded-3xl p-1 hidden lg:flex ">
             <button type="button"
               className="relative w-1/2 rounded-3xl py-2 text-sm font-medium whitespace-nowrap focus:outline-none sm:w-auto sm:px-8 bg-indigo-600 text-white shadow-sm">Monthly
               billing
