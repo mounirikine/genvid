@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  
+  @apply  font-Poppins 
+}
+
+body{
+  @apply  font-Poppins bg-white text-indigo-950
+}
+
+.body{
+  background-image: url("../src/assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+button{
+  @apply bg-white px-16 py-2 rounded-lg text-black font-medium hover:bg-indigo-700 hover:text-white transition-all
+}
